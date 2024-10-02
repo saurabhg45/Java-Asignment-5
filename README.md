@@ -1,4 +1,4 @@
-#Java Assignment - 5
+##Java Assignment - 5
 
 1.    Bob has his money deposited $1000, $1500 and $2000 in banks-Bank A, Bank B and Bank C respectively. We have to print the money deposited by him in a particular bank.
 Create a class 'Bank' with a method 'getBalance' which returns 0 and another method ‘applyInterest’ which return the accountbalance. Make its three subclasses named 'BankA', 'BankB' and 'BankC' with a method with the same name 'getBalance' which returns the amount deposited in that particular bank. Override the method ‘applyInterest’ by adding the interest calculated with the Bank’s interest rate (Static variable for the Bank class). Call the method 'getBalance' and ‘applyInterest’ by the
@@ -15,6 +15,5 @@ Hint-Use array of objects.
 4.    Create a class 'Degree' having a method 'getDegree' that prints"I got a degree". It has two subclasses namely 'Undergraduate' and
 'Postgraduate'each having a method with the same name that prints"I am an Undergraduate" and "I am a Postgraduate" respectively.Call the method by creating an object of each of the three classes.
 ==================================================================================================
-
 5.Implement Multilevel Inheritance with Method Overriding
     Create a base class Person.Create a subclass Employee that extends Person, and includes the methods work() and getSalary().Create another subclass HRManager that extends Employee, overrides the work() method, and adds a new method addEmployee() to simulate adding employees.
